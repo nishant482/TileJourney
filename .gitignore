@@ -1,0 +1,40 @@
+# Local browser profiles and device state
+.chrome-test/
+.android/
+
+# Generated builds and downloads
+dist/
+artifacts/
+*.apk
+*.aab
+*.zip
+**/build/
+**/.dart_tool/
+**/.gradle/
+**/.cxx/
+**/.idea/
+**/.pub-cache/
+**/.flutter-plugins-dependencies
+**/local.properties
+**/GeneratedPluginRegistrant.java
+
+# Private configuration and signing material
+.env
+.env.*
+!.env.example
+**/key.properties
+*.jks
+*.keystore
+*.p12
+*.pem
+
+# Crash dumps and temporary files
+hs_err_*.log
+*.hprof
+*.log
+*.tmp
+*.pyc
+__pycache__/
+
+# Android assets are generated from root source by the preparation script
+android_app/android/app/src/main/assets/webgame/

@@ -1,0 +1,23 @@
+Generated with built-in image_gen on 10 October 2026. Saved outputs copied into this project; default generated-image originals retained.
+
+coast.png: Original portrait 9:16 relaxing mobile puzzle background. European coastal garden, blue sky and clouds, distant turquoise sea, terracotta village and ornate castle tower, lush garden and sandy foreground path. Polished casual game painterly 3D illustration. No text, UI, tiles or logo.
+
+forest.png: Original portrait 9:16 tropical rainforest background. Turquoise stream and stepping stones, mossy rocks, fern fronds, waterfall and misty green mountains. Bright cyan upper sky, calm middle area for game tiles, polished casual game painterly 3D illustration. No text, UI, tiles or logos.
+
+city.png: Original portrait 9:16 Japanese garden/city background. Red observation tower, cherry blossoms, landscaped park, distant skyline, bright blue upper sky and clouds. Sunny casual mobile-game painterly 3D style, calm central area. No text, logos, UI or tiles.
+
+Store logo: Original code-native SVG of three ivory apple tiles over a blue sky and green landscape, rasterized at 512x512.
+Feature graphic: 1024x500 composition of the shipped coast artwork, title and three matching apple tiles.
+Eight 1080x1920 store screenshots: Actual game captures with concise feature captions, saved by tool/assets.cjs.
+
+1.1.0 UPGRADE - built-in image_gen
+Elements-fruit.png: Transparent regular 4x4 atlas of glossy modeled apple, cherries, lemon, strawberry, grapes, cupcake, mushroom, watermelon, blueberries, orange, rose, daffodil, iris, lavender, lotus and tulip. Reference role: supplied floral tile image for sculpted highlights and petal detail. No tile surfaces, text or scenery.
+Elements-flowers.png: Transparent regular 4x4 atlas of red rose, daffodil, blue iris, lavender, cherry blossom, tulip, lotus, hibiscus, hydrangea, gardenia, lily, sunflower, orchid, peony, daisy and fuchsia. Glossy realistically modeled petals, green leaves, distinct silhouettes, no background or tile surfaces.
+Logo-source-v2.png: Square premium app icon, three thick ivory/golden ceramic tiles carrying rose, iris and daffodil over a sparkling fresh green garden. No text or third-party branding. Exported at 512x512 by the game's store-asset composition tool.
+Alpine.png: 9:16 snow-covered village, icy lake, timber chalets, evergreen trees and snowy mountains with open blue sky.
+Desert.png: 9:16 Arabian desert oasis with turquoise pool, sandstone arch, date palms, domed village and dunes.
+Beach.png: 9:16 tropical lagoon, white sand, palms and hibiscus, emerald islands and luminous cyan sky.
+Meadow.png: 9:16 lavender/wildflower fields, cottage, garden gate and pink roses under sunny blue sky.
+Mountain.png: 9:16 emerald Alpine lake, wooden bridge, autumn/green trees, mountains and waterfall.
+All backgrounds use premium painterly 3D casual-game illustration, calm central composition, and no text, UI, tiles or logos.
+The 25 scenery themes combine 8 original scene illustrations with explicitly named lighting/color moods. The separate tile-art collections use the 3D atlases. Prompt descriptions above are the final production specifications passed to built-in imagegen.

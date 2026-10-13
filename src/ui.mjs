@@ -1,0 +1,23 @@
+const paths={
+settings:'<path d="M27 8h10l2 7 6 3 7-2 5 9-5 5v7l5 5-5 9-7-2-6 3-2 7H27l-2-7-6-3-7 2-5-9 5-5v-7l-5-5 5-9 7 2 6-3z"/><circle cx="32" cy="33" r="10" fill="#fff9dc"/>',
+hint:'<path d="M19 27a13 13 0 1 1 26 0c0 9-7 11-7 18H26c0-7-7-9-7-18z"/><path d="M27 49h10m-8 6h6M32 5v5M9 27h6m34 0h6M14 10l5 5m26-5-5 5" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>',
+undo:'<path d="M24 14L8 27l16 13v-9h15c16 0 16 18 0 18H27v9h12c27 0 28-37 0-37H24z"/>',
+shuffle:'<path d="M8 15h7c13 0 18 27 31 27h3v-8l11 12-11 12v-8h-3C28 50 26 23 15 23H8zM8 42h7c4 0 7-5 10-10l5 8c-5 7-9 10-15 10H8zM34 21c4-4 7-6 12-6h3V7l11 12-11 12v-8h-3c-2 0-5 2-7 5z"/>',
+home:'<path d="M5 29L32 7l27 22-6 7-4-3v24H37V40H27v17H15V33l-4 3z"/>',
+journey:'<path d="M20 10c26 0 25 18 1 21s-12 21 24 21" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round"/><circle cx="18" cy="10" r="7"/><path d="M44 39c-16 0-11 16 0 22 11-7 16-22 0-22z"/>',
+back:'<path d="M41 8L17 32l24 24 7-8-16-16 16-16z"/>',
+profile:'<circle cx="32" cy="20" r="12"/><path d="M10 57v-9c0-22 44-22 44 0v9z"/>',
+tiles:'<rect x="8" y="11" width="22" height="24" rx="6"/><rect x="35" y="11" width="22" height="24" rx="6"/><rect x="22" y="35" width="23" height="24" rx="6"/>',
+scenery:'<rect x="7" y="11" width="50" height="43" rx="8"/><circle cx="43" cy="23" r="6" fill="#ffefaa"/><path d="M9 45l14-19 13 16 9-9 12 18H9z" fill="#fffde0"/>',
+gift:'<rect x="10" y="29" width="44" height="28" rx="5"/><rect x="6" y="20" width="52" height="12" rx="4"/><path d="M32 21c-29 0-25-25-7-12l7 12c29 0 25-25 7-12z" fill="none" stroke="currentColor" stroke-width="6"/><path d="M32 24v33" stroke="#fff3bf" stroke-width="7"/>',
+star:'<path d="M32 4l8 19 21 2-16 14 5 21-18-11-18 11 5-21L3 25l21-2z"/>',
+sound:'<path d="M6 24h12L33 10v44L18 40H6z"/><path d="M41 22q16 10 0 20m8-29q27 19 0 38" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>',
+clock:'<circle cx="32" cy="35" r="23"/><path d="M24 6h16M32 21v15l10 5" stroke="#fff9e0" stroke-width="5" fill="none" stroke-linecap="round"/>',
+share:'<circle cx="13" cy="32" r="9"/><circle cx="49" cy="13" r="9"/><circle cx="49" cy="51" r="9"/><path d="M17 28L43 15m-26 22 26 13" stroke="currentColor" stroke-width="7"/>',
+coin:'<circle cx="32" cy="32" r="26"/><circle cx="32" cy="32" r="19" fill="none" stroke="#fff5bf" stroke-width="4"/><path d="M34 18l-10 16h9l-4 12 12-17h-9z" fill="#fff8d3"/>',
+play:'<path d="M20 8q-6 0-6 8v34q0 10 8 6l32-21q6-4 0-8L22 9z"/>',
+check:'<path d="M6 31l17 17L59 14l-8-8-28 27-9-10z"/>',
+lock:'<path d="M18 27v-9a14 14 0 0 1 28 0v9h6v31H12V27zM25 27h14v-9a7 7 0 0 0-14 0z"/><circle cx="32" cy="40" r="5" fill="#ffffff"/>',
+help:'<circle cx="32" cy="32" r="27"/><path d="M24 23c0-13 22-13 22-1 0 10-14 8-14 18m0 7v2" fill="none" stroke="#fff9e9" stroke-width="6" stroke-linecap="round"/>',
+vibration:'<rect x="22" y="10" width="22" height="45" rx="5"/><path d="M12 20l-4 8 4 8-4 8m44-24 4 8-4 8 4 8" stroke="currentColor" stroke-width="4" fill="none"/>'};
+export function uiIcon(name,tone='green'){const id='ui-'+name+'-'+tone,a=tone==='gold'?'#ffe382':tone==='blue'?'#93dcff':'#a1e8bf',b=tone==='gold'?'#eba43a':tone==='blue'?'#389bdb':'#389b74';return `<svg class="ui-icon" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="${id}" x2=".8" y2="1"><stop stop-color="${a}"/><stop offset="1" stop-color="${b}"/></linearGradient></defs><g fill="url(#${id})" color="${b}" stroke-linejoin="round">${paths[name]||paths.tiles}</g></svg>`;}

@@ -1,0 +1,55 @@
+{
+  "version": "1.2.0",
+  "assets": [
+    {
+      "file": "logo-512.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "file": "feature-graphic-1024x500.png",
+      "width": 1024,
+      "height": 500
+    },
+    {
+      "file": "01-triple-match-1080x1920.png",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "02-city-adventure-1080x1920.png",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "03-layered-puzzles-1080x1920.png",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "04-golden-hour-1080x1920.png",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "05-moonlight-1080x1920.png",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "06-boosters-1080x1920.png",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "07-scenery-1080x1920.png",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "file": "08-journey-1080x1920.png",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

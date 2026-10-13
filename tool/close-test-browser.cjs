@@ -1,0 +1,1 @@
+(async()=>{try{const v=await(await fetch('http://127.0.0.1:9234/json/version')).json();const s=new WebSocket(v.webSocketDebuggerUrl);s.onopen=()=>s.send(JSON.stringify({id:1,method:'Browser.close'}));s.onclose=()=>process.exit(0);setTimeout(()=>process.exit(0),1800);}catch{process.exit(0)}})();

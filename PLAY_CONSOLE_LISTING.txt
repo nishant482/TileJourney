@@ -1,0 +1,64 @@
+SMART AXIS - TILE JOURNEY PLAY CONSOLE PACK
+
+App title (under 30 characters):
+Tile Journey: Triple Match
+
+Short description (under 80 characters):
+Match three tiles, explore scenic themes and unwind with offline puzzles.
+
+Full description:
+Find a quiet moment with Tile Journey, a triple tile matching puzzle game from Smart Axis.
+
+Tap uncovered tiles to move them into your tray. Match three identical tiles to clear them, then keep matching until the board is empty. Plan your moves: the tray holds seven tiles, and covered tiles become available as you remove the layers above them.
+
+A LITTLE ADVENTURE IN EVERY MATCH
+Explore 3,000 seeded puzzles with layered boards and a colorful collection of fruit, treats and nature-inspired tile symbols. Each puzzle has a legal completion path, while your choices decide how the tray fills.
+
+SCENERY FOR YOUR MOOD
+Choose from 45 scenery options: the 25 earlier themes plus 20 new illustrated destinations, including cities, islands, gardens and ocean escapes. Use automatic scenery to change the backdrop as your journey progresses, or keep a favorite theme.
+
+HELP WHEN YOU NEED IT
+Undo a move, highlight an available tile with a hint, or shuffle the remaining tiles. Earn coins through first-time level completion and collect a daily gift for extra boosters. Retry a puzzle at your own pace.
+
+PLAY YOUR WAY
+Choose from 20 beautiful tile collections, including flowers, fruit, emoji, gems, candy, animals, ocean friends and more. Watch matching tiles fly together, combine and burst into falling marble-like particles while you keep playing. Play at your own pace or enable a three-minute timed challenge for new puzzles. Enjoy gentle matching sound effects, turn sound or vibration on or off, and personalize your explorer name. A timer is optional. No account or online purchase is required. Settings include device-local rating feedback and sharing via the Android/browser share chooser.
+
+YOUR PROGRESS STAYS ON YOUR DEVICE
+Your active puzzle, levels, coins, boosters and settings are saved locally. The Android game works offline. The browser version works offline after its first successful load. Clearing app or browser data removes saved progress; cross-device syncing is not included.
+
+Match three. Clear the board. Find your calm with Tile Journey.
+
+Category: Games > Puzzle
+Suggested tags: Match 3, Puzzle, Single player, Offline (select only available relevant Console tags)
+Developer display name: Smart Axis
+Package: com.smartaxis.tile_journey
+Version: 1.2.0 / versionCode 3
+Release notes: Initial release with 3,000 seeded puzzles, 45 scenery options, layered tile matching, boosters, daily gifts, sound and local saves.
+
+UPLOAD ASSETS
+App icon: assets/images/aso/logo-512.png (512x512 PNG)
+Feature graphic: assets/images/aso/feature-graphic-1024x500.png
+Screenshots: the eight files ending -1080x1920.png (portrait 9:16)
+Use these final files, not the files ending -raw.png.
+
+REQUIRED OWNER DETAILS BEFORE PUBLISHING
+Public support email: [ADD YOUR OWN SUPPORT EMAIL]
+Public privacy policy URL: [ADD YOUR OWN HTTPS PRIVACY POLICY URL]
+Developer legal/contact details: [COMPLETE WITH YOUR REAL ACCOUNT DETAILS]
+
+PRIVACY POLICY DRAFT
+Smart Axis offers Tile Journey as a locally saved puzzle game. The current version has no account, advertising SDK, analytics SDK, purchase service or app-operated remote server. Game progress, coins, boosters, preferences and the profile name are stored on the device. The app does not request contacts, location, camera or microphone access. Optional vibration is used for game feedback. Clearing app data removes local saves. There is no cross-device synchronization. For support or privacy requests, contact [YOUR SUPPORT EMAIL]. Effective date: [PUBLICATION DATE]. Review this draft against your final release before hosting it at your own public HTTPS URL.
+
+DATA SAFETY AND RELEASE CHECKLIST
+Review the final shipped SDKs and answer the Play Console data safety form truthfully. This version stores gameplay data locally and has no app-operated data collection or sharing service. Complete the age/content questionnaire truthfully for a colorful non-violent puzzle game. Current build has no ads or purchases. Device-local ratings are not public Google Play reviews. Share text contains no reference-publisher links.
+
+The supplied APK is development signed for direct device testing. Configure your private release/upload key and build a signed AAB for Play Console production upload. Test on physical Android phones, validate startup, audio, offline play, save/restart and back navigation, and follow the current target SDK/account testing requirements shown by Play Console.
+
+ASO NOTES
+Natural search phrases are triple tile match, tile matching puzzle, offline puzzle, relaxing puzzle and scenic tile game. Use readable descriptions and actual screenshots; do not add fake ratings, downloads, rank claims or competitor branding. Artwork and game design are original local recreations of a reference layout. Good metadata does not guarantee store ranking.
+
+1.1.0 release notes: Realistic sculpted tile art, a new floral icon, 45 scenery options, three tile collections, three-tile merging and falling-marble effects, optional timed challenges, saved rating feedback and native sharing. Existing local progress is preserved.
+
+1.2.0 release notes: Redesigned full-screen Home/Journey/Scenery/Collections/Profile/Settings pages, coordinated icons, 20 tile collections, 20 additional illustrated destinations (45 scenery options total), non-blocking overlapping match effects with no match text, and preserved local progress.
+
+CURRENT RELEASE 1.2.0: Clean dedicated full-screen Home, winding Journey, Scenery, Tile Collections, Profile and Settings; 20 complete tile collections; 20 additional illustrated destinations while preserving the earlier 25 options; non-blocking overlapping tile/merge/marble effects with no match text; original custom button icons. Progress remains local.
